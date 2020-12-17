@@ -19,6 +19,8 @@ def enough(cap, on, wait):
     if on + wait > cap:
         return abs(cap - (on+wait))
     return 0
+    
+    #return max(0, wait - (cap - on))
 
 
 class TestEnoughSpace(unittest.TestCase):
