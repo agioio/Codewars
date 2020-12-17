@@ -11,7 +11,7 @@ import unittest,re
 
 def is_lock_ness_monster(string):
     #your code here
-    return True if re.search(r"tree fiddy|3\.50",string) else False
+    return True if re.search(r"tree fiddy|3\.50|three fifty",string) else False
 
 
 class TestStrangeTripToMarket(unittest.TestCase):
